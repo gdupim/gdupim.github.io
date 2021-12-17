@@ -1,0 +1,54 @@
+/** Reset: */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/** Elementos base: */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background: #dadada;
+}
+
+header{
+    padding: 1.5%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.5px solid;
+}
+
+main{
+    padding: 1.5%;
+}
+
+nav a{
+    color: black;
+    font-size: 1.15em;
+    margin-left: 5.5em;
+    font-weight: bold;
+    transition: ease 0.3s;
+}
+
+nav a:hover{
+    color: gray;
+}
+
+/** Classes: */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0.15%;
+}
+
+.logo a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
